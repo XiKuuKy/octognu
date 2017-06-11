@@ -1,0 +1,219 @@
+Rootmenu = "/" {
+    Submenu = "Development" {
+        Entry = "CMake curses GUI (ccmake)" { Actions = "Exec xterm -e ccmake &" }
+        Entry = "CMake Qt4 GUI (cmake-gui)" { Actions = "Exec cmake-gui &" }
+        Entry = "DDD debugger" { Actions = "Exec ddd &" }
+        Entry = "Doxywizard" { Actions = "Exec doxywizard &" }
+        Entry = "GDB" { Actions = "Exec xterm -e gdb &" }
+        Entry = "IDLE (Python IDE)" { Actions = "Exec idle &" }
+        Entry = "Mozilla" { Actions = "Exec mozilla &" }
+        Entry = "Python" { Actions = "Exec xterm -e python &" }
+        Entry = "Python (v2.7)" { Actions = "Exec xterm -e python2.7 &" }
+        Entry = "Qt4 Assistant" { Actions = "Exec assistant &" }
+        Entry = "Qt4 Designer" { Actions = "Exec designer &" }
+        Entry = "Qt4 Linguist" { Actions = "Exec linguist &" }
+        Entry = "Tclsh8.6" { Actions = "Exec xterm -e tclsh8.6 &" }
+    }
+    Submenu = "Editors" {
+        Entry = "AA Fire" { Actions = "Exec xterm -e aafire -driver slang &" }
+        Entry = "Character map" { Actions = "Exec gucharmap &" }
+        Entry = "Elvis" { Actions = "Exec xterm -e elvis &" }
+        Entry = "Elvis" { Actions = "Exec xterm -e elvis -G termcap &" }
+        Entry = "Elvis X11" { Actions = "Exec elvis -G x11 &" }
+        Entry = "Emacs" { Actions = "Exec xterm -e emacs &" }
+        Entry = "GVim" { Actions = "Exec gvim &" }
+        Entry = "Jed" { Actions = "Exec xterm -e jed &" }
+        Entry = "Joe" { Actions = "Exec xterm -e joe &" }
+        Entry = "Jove" { Actions = "Exec xterm -e jove &" }
+        Entry = "Nano" { Actions = "Exec xterm -e nano &" }
+        Entry = "Pico" { Actions = "Exec xterm -e pico &" }
+        Entry = "Vi" { Actions = "Exec xterm -e vi &" }
+        Entry = "Vim" { Actions = "Exec xterm -e vim &" }
+        Entry = "Xedit" { Actions = "Exec xedit &" }
+    }
+    Submenu = "Games" {
+        Submenu = "Amusement" {
+            Entry = "Ico" { Actions = "Exec ico &" }
+            Entry = "Xclock (digital)" { Actions = "Exec xclock -digital -update 1 &" }
+            Entry = "Xeyes" { Actions = "Exec xeyes &" }
+            Entry = "Xgc" { Actions = "Exec xgc &" }
+            Entry = "Xroach - start" { Actions = "Exec xroach &" }
+        }
+        Submenu = "Board" {
+            Entry = "Chess Net" { Actions = "Exec xterm -e xboard -ics -icshost chess.net &" }
+            Entry = "Default" { Actions = "Exec xterm -e xboard -ics &" }
+            Entry = "Free I.C.S." { Actions = "Exec xterm -e xboard -ics -icshost freechess.org &" }
+            Entry = "GnuChess" { Actions = "Exec xterm -e gnuchess &" }
+            Entry = "Internet Chess Club" { Actions = "Exec xterm -e xboard -ics -icshost chessclub.com &" }
+            Entry = "X Gnuchess" { Actions = "Exec xboard &" }
+            Entry = "XBoard" { Actions = "Exec xboard -xncp &" }
+            Entry = "XBoard (passive chessboard)" { Actions = "Exec xboard -ncp &" }
+        }
+        Submenu = "Card" {
+            Entry = "Spider" { Actions = "Exec spider &" }
+        }
+    }
+    Submenu = "Graphics" {
+        Entry = "Bitmap" { Actions = "Exec bitmap &" }
+        Entry = "Geeqie" { Actions = "Exec geeqie &" }
+        Entry = "GV" { Actions = "Exec gv &" }
+        Entry = "scanimage" { Actions = "Exec xterm -e scanimage &" }
+        Entry = "The GIMP" { Actions = "Exec gimp &" }
+        Entry = "xcam" { Actions = "Exec xcam &" }
+        Entry = "Xfig" { Actions = "Exec xfig &" }
+        Entry = "XGlyph" { Actions = "Exec xglyph &" }
+        Entry = "Xpaint" { Actions = "Exec xpaint &" }
+        Entry = "Xpdf" { Actions = "Exec xpdf &" }
+        Entry = "xsane" { Actions = "Exec xsane &" }
+        Entry = "xscanimage" { Actions = "Exec xscanimage &" }
+    }
+    Submenu = "Multimedia" {
+        Entry = "ALSA mixer" { Actions = "Exec xterm -e alsamixer &" }
+        Entry = "Audacious" { Actions = "Exec audacious &" }
+        Entry = "Gmplayer" { Actions = "Exec gmplayer &" }
+        Entry = "moc" { Actions = "Exec xterm -e mocp &" }
+        Entry = "pavucontrol" { Actions = "Exec pavucontrol &" }
+        Entry = "wmXMMS" { Actions = "Exec wmxmms &" }
+        Entry = "xine Media Player" { Actions = "Exec xine &" }
+        Entry = "XMMS" { Actions = "Exec xmms &" }
+    }
+    Submenu = "Network" {
+        Entry = "Elm" { Actions = "Exec xterm -e elm &" }
+        Entry = "FireFox" { Actions = "Exec firefox &" }
+        Entry = "FTP" { Actions = "Exec xterm -e ftp &" }
+        Entry = "gFTP" { Actions = "Exec gftp &" }
+        Entry = "Irssi" { Actions = "Exec xterm -e irssi &" }
+        Entry = "LFTP" { Actions = "Exec xterm -e lftp &" }
+        Entry = "Links" { Actions = "Exec xterm -e links &" }
+        Entry = "Lynx" { Actions = "Exec xterm -e lynx &" }
+        Entry = "Mail" { Actions = "Exec xterm -e mail &" }
+        Entry = "Minicom" { Actions = "Exec xterm -e minicom &" }
+        Entry = "Minicom (X11)" { Actions = "Exec xminicom &" }
+        Entry = "Mutt" { Actions = "Exec xterm -e mutt &" }
+        Entry = "NcFTP" { Actions = "Exec xterm -e ncftp &" }
+        Entry = "No News" { Actions = "Exec xterm -e nn &" }
+        Entry = "Pan" { Actions = "Exec pan &" }
+        Entry = "Pine" { Actions = "Exec xterm -e pine &" }
+        Entry = "SLRN" { Actions = "Exec slrn &" }
+        Entry = "Talk" { Actions = "Exec xterm -e talk &" }
+        Entry = "Telnet" { Actions = "Exec xterm -e telnet &" }
+        Entry = "Thunderbird" { Actions = "Exec thunderbird &" }
+        Entry = "TkVNC" { Actions = "Exec xterm -e tkvnc &" }
+        Entry = "Xbiff" { Actions = "Exec xbiff &" }
+        Entry = "Xmh" { Actions = "Exec xmh &" }
+        Entry = "Ytalk" { Actions = "Exec xterm -e ytalk &" }
+    }
+    Submenu = "Office" {
+        Entry = "fetchmailconf" { Actions = "Exec fetchmailconf &" }
+        Entry = "XDvi" { Actions = "Exec xdvi &" }
+    }
+    Submenu = "Science" {
+        Entry = "bc" { Actions = "Exec xterm -e bc &" }
+        Entry = "dc" { Actions = "Exec xterm -e dc &" }
+        Entry = "Gnuplot" { Actions = "Exec xterm -e gnuplot &" }
+        Entry = "Xcalc" { Actions = "Exec xcalc &" }
+    }
+    Submenu = "Shells" {
+        Entry = "Generator" { Actions = "Exec generator &" }
+        Entry = "GIT" { Actions = "Exec xterm -e git &" }
+        Entry = "MC" { Actions = "Exec xterm -e mc &" }
+        Entry = "Rdesktop" { Actions = "Exec rdesktop &" }
+        Entry = "Rxvt" { Actions = "Exec rxvt &" }
+        Entry = "x3270" { Actions = "Exec x3270 &" }
+        Entry = "Xterm" { Actions = "Exec xterm &" }
+        Entry = "XTerm (Unicode)" { Actions = "Exec uxterm &" }
+    }
+    Submenu = "System" {
+        Submenu = "Settings" {
+            Entry = "HPLIP Toolbox" { Actions = "Exec hp-toolbox &" }
+            Entry = "Xvidtune" { Actions = "Exec xvidtune &" }
+        }
+        Entry = "GKrellM" { Actions = "Exec gkrellm &" }
+        Entry = "HPLIP File printing" { Actions = "Exec hp-print &" }
+        Entry = "htop" { Actions = "Exec xterm -e htop &" }
+        Entry = "netwatch" { Actions = "Exec xterm -e netwatch &" }
+        Entry = "pstree" { Actions = "Exec xterm -e /usr/bin/pstree.x11 &" }
+        Entry = "pstree" { Actions = "Exec xterm -e pstree &" }
+        Entry = "Pstree" { Actions = "Exec xterm -e pstree.x11 &" }
+        Entry = "QtConfig" { Actions = "Exec qtconfig &" }
+        Entry = "TeXconfig" { Actions = "Exec xterm -e texconfig &" }
+        Entry = "Top" { Actions = "Exec xterm -e top &" }
+        Entry = "Xconsole" { Actions = "Exec xconsole &" }
+        Entry = "XLoad" { Actions = "Exec xload &" }
+    }
+    Submenu = "Utilities" {
+        Entry = "Activate ScreenSaver (Next)" { Actions = "Exec xscreensaver-command -next &" }
+        Entry = "Activate ScreenSaver (Previous)" { Actions = "Exec xscreensaver-command -prev &" }
+        Entry = "Activate ScreenSaver (Random)" { Actions = "Exec xscreensaver-command -activate &" }
+        Entry = "Beforelight" { Actions = "Exec beforelight &" }
+        Entry = "Demo Screen Hacks" { Actions = "Exec xscreensaver-command -demo &" }
+        Entry = "Disable XScreenSaver" { Actions = "Exec xscreensaver-command -exit &" }
+        Entry = "Editres" { Actions = "Exec editres &" }
+        Entry = "Enable XScreenSaver" { Actions = "Exec xscreensaver &" }
+        Entry = "Info" { Actions = "Exec xterm -e info &" }
+        Entry = "Lock Screen (XScreenSaver)" { Actions = "Exec xscreensaver-command -lock &" }
+        Entry = "Oclock" { Actions = "Exec oclock &" }
+        Entry = "Rclock" { Actions = "Exec rclock &" }
+        Entry = "Reinitialize XScreenSaver" { Actions = "Exec xscreensaver-command -restart &" }
+        Entry = "ScreenSaver Preferences" { Actions = "Exec xscreensaver-command -prefs &" }
+        Entry = "TeXdoctk" { Actions = "Exec texdoctk &" }
+        Entry = "Viewres" { Actions = "Exec viewres &" }
+        Entry = "Xclipboard" { Actions = "Exec xclipboard &" }
+        Entry = "Xclock (analog)" { Actions = "Exec xclock -analog &" }
+        Entry = "Xclock (digital)" { Actions = "Exec xclock -digital &" }
+        Entry = "Xcutsel" { Actions = "Exec xcutsel &" }
+        Entry = "XDitView" { Actions = "Exec xditview &" }
+        Entry = "Xev" { Actions = "Exec xterm -e xev &" }
+        Entry = "XFontSel" { Actions = "Exec xfontsel &" }
+        Entry = "Xkill" { Actions = "Exec xkill &" }
+        Entry = "Xlogo" { Actions = "Exec xlogo &" }
+        Entry = "Xmag" { Actions = "Exec xmag &" }
+        Entry = "Xman" { Actions = "Exec xman &" }
+        Entry = "Xrefresh" { Actions = "Exec xrefresh &" }
+        Entry = "Xsetroot" { Actions = "Exec xsetroot &" }
+    }
+    Separator {}
+    Submenu = "PekWM" {
+        Entry = "Reload" { Actions = "Reload" }
+        Entry = "Restart" { Actions = "Restart" }
+        Separator {}
+        Entry = "Exit" { Actions = "Exit" }
+    }
+}
+
+WindowMenu = "Window Menu" {
+    Entry = "(Un)Stick" { Actions = "Toggle Sticky" }
+    Entry = "(Un)Shade" { Actions = "Toggle Shaded" }
+    Submenu = "Maximize" {
+        Entry = "Full" { Actions = "Toggle Maximized True True" }
+        Entry = "Horizontal" { Actions = "Toggle Maximized True False" }
+        Entry = "Vertical" { Actions = "Toggle Maximized False True" }
+    }
+    Submenu = "Fill" {
+        Entry = "Full" { Actions = "MaxFill True True" }
+        Entry = "Horizontal" { Actions = "MaxFill True False" }
+        Entry = "Vertical" { Actions = "MaxFill False True" }
+    }
+    Submenu = "Stacking" {
+        Entry = "Raise " { Actions = "Raise" }
+        Entry = "Lower" { Actions = "Lower" }
+        Entry = "Always On Top " { Actions = "Toggle AlwaysOnTop" }
+        Entry = "Always Below" { Actions = "Toggle AlwaysBelow" }
+    }
+    Submenu = "Decor" {
+        Entry = "Decor" { Actions = "Toggle DecorBorder; Toggle DecorTitlebar" }
+        Entry = "Border" { Actions = "Toggle DecorBorder" }
+        Entry = "Titlebar" { Actions = "Toggle DecorTitlebar" }
+    }
+    Submenu = "Skip" {
+        Entry = "Menus" { Actions = "Toggle Skip Menus" }
+        Entry = "Focus Toggle" { Actions = "Toggle Skip FocusToggle" }
+        Entry = "Snap" { Actions = "Toggle Skip Snap" }
+    }
+    Entry = "Iconify " { Actions = "Set Iconified" }
+    Entry = "Manual Action" { Actions = "ShowCmdDialog" }
+    Separator {}
+    Entry = "Close" { Actions = "Close" }
+    Entry = "Kill " { Actions = "Kill " }
+}
+
