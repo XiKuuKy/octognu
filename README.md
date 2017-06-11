@@ -1,9 +1,14 @@
-install
+octognu
 =========
+
+install
+----------
 
 Install slpkg with `installpkg slpkg*`
 
 Then install all the other stuff.
+
+Copy the .pekwm folder to your home folder. Then run `mmaker pekwm -f`. Change the `~/.pekwm/start` to reflect your background (I used a picture of the girl group TWICE :* )
 
 Recommendations
 ---------------

@@ -1,9 +1,14 @@
-install
+octognu
 =========
+
+install
+----------
 
 Install slpkg with `installpkg slpkg*`
 
 Then install all the other stuff.
+
+Copy the .pekwm folder to your home folder. Then run `mmaker pekwm -f`
 
 Recommendations
 ---------------
